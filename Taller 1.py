@@ -66,3 +66,10 @@ print(f'El descuento por seguro social es: {SSocial}')
 print(f'El descuento por seguro forzoso es: {SForzoso}')
 print(f'El descuento por caja de ahorro es: {CAhorro}')
 print(f'El Total a pagar al trabajador es: {total}')
+
+# Ejercicio 9
+NPalabras = int(input('Digite el numero de palabras: '))
+tamano = float(input('Digite el tamaño en centímetros: '))
+NColores = int(input('Digite el numero de colores: '))
+total= (NPalabras * 20000 ) + (tamano * 15000) + (NColores * 25000)
+print(f'El total a pagar por el aviso es: {total}')
