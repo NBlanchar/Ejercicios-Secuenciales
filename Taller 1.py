@@ -35,3 +35,15 @@ print(f'La masa es: {masa}')
 edad = int(input('Digite la edad: '))
 NPulsaciones = (200 - edad) / 10
 print(f'El numero de pulsaciones por cada 10 seg es: {NPulsaciones}')
+
+# Ejercicio 6
+Inversionista_1 = float(input('Digite aporte del inversionista 1: '))
+Inversionista_2 = float(input('Digite aporte del inversionista 2: '))
+Inversionista_3 = float(input('Digite aporte del inversionista 3: '))
+Total = Inversionista_1 + Inversionista_2 + Inversionista_3
+Porcentaje_1 = Inversionista_1 / Total * 100
+Porcentaje_2 = Inversionista_2 / Total * 100
+Porcentaje_3 = Inversionista_3 / Total * 100
+print(f'El porcentaje del inversionista 1 es: {Porcentaje_1}%')
+print(f'El porcentaje del inversionista 2 es: {Porcentaje_2}%')
+print(f'El porcentaje del inversionista 3 es: {Porcentaje_3}%')
