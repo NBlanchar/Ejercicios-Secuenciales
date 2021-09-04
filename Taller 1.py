@@ -114,3 +114,10 @@ NPeliculas = int(input("Digite el numero de peliculas: "))
 Ndias = int(input("Digite el numero de dias: "))
 Total = 15000 * (Ndias * (NPeliculas-1))
 print(f'El monto a pagar es: {Total}')
+
+# Ejercicio 16
+NDias = int(input("Digite el nuemro de dias: "))
+NPersonas = int(input("Digite el numero de personas: "))
+Costo = Ndias * NPersonas * 25000
+Total = Costo + (Costo * 0.12)
+print(f'El monto a pagar es: {Total}')
