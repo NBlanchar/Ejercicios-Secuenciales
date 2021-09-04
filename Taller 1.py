@@ -23,3 +23,10 @@ m = z ** 2 * 3 + n
 a = (z + 2 - n) ** 2 * m + 8 / 2 - 30
 y = (((a) / 2 * 5 - 3) ** 5 + 15 * 3 - 9 / 3) ** 2 - 5 / 4
 print(y)
+
+# Ejercicio 4
+presion = float(input('Digite valor de la presión: '))
+volumen = float(input('Digite valor de la volúmen: '))
+temperatura = float(input('Digite valor de la temperatura: '))
+masa = (presion * volumen) / (0.37 * (temperatura + 460))
+print(f'La masa es: {masa}')
