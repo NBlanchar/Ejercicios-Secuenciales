@@ -121,3 +121,8 @@ NPersonas = int(input("Digite el numero de personas: "))
 Costo = Ndias * NPersonas * 25000
 Total = Costo + (Costo * 0.12)
 print(f'El monto a pagar es: {Total}')
+
+# Ejercicio 17
+noches = int(input('Digite el numero de noches: '))
+total = ((noches - 1) * 200000) + 100000
+print(f'El monto a pagar por la estadia es: {total}')
