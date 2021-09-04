@@ -126,3 +126,12 @@ print(f'El monto a pagar es: {Total}')
 noches = int(input('Digite el numero de noches: '))
 total = ((noches - 1) * 200000) + 100000
 print(f'El monto a pagar por la estadia es: {total}')
+
+# Ejercicio 18
+prestamo = float(input('Digite el valor del prestamo: '))
+Total = prestamo + (prestamo * 0.24)
+CEspecial = Total / 2 / 4
+COrdinaria = Total / 2 / 20
+print(f'El valor a pagar es: {Total}')
+print(f'El valor de la cuota especial es: {CEspecial}')
+print(f'El valor de la cuota ordinaria es: {COrdinaria}')
