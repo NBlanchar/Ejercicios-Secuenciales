@@ -47,3 +47,9 @@ Porcentaje_3 = Inversionista_3 / Total * 100
 print(f'El porcentaje del inversionista 1 es: {Porcentaje_1}%')
 print(f'El porcentaje del inversionista 2 es: {Porcentaje_2}%')
 print(f'El porcentaje del inversionista 3 es: {Porcentaje_3}%')
+
+# Ejercicio 7
+ahorro = float(input('Digite monto ahorrado: '))
+interes = ahorro * 0.015
+total = ahorro + interes
+print(f'El saldo final del ahorrador es: {total}')
