@@ -93,3 +93,9 @@ MFinal = float(input('Digite el monto final de la tarjeta: '))
 Ctotal = MFinal - MInicial
 Cllamada = 5 * Ctotal / 6
 print(f'El costo de la llamada es:{Cllamada}')
+
+# Ejercicio 13
+NFotos = int(input('Digite el numero de fotos: '))
+TFotos = NFotos * 1500
+Total = TFotos + (TFotos * 0.16)
+print(f'El moto a pagar por las fotos es: {Total}')
