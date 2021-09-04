@@ -108,3 +108,9 @@ Pediatria = presupuesto * 0.3
 print(f'El presupuesto para el area de ginecología es : {Ginecologia}')
 print(f'El presupuesto para el area de traumatología es : {Traumatologia}')
 print(f'El presupuesto para el area de pediatría es : {Pediatria}')
+
+# Ejercicio 15
+NPeliculas = int(input("Digite el numero de peliculas: "))
+Ndias = int(input("Digite el numero de dias: "))
+Total = 15000 * (Ndias * (NPeliculas-1))
+print(f'El monto a pagar es: {Total}')
