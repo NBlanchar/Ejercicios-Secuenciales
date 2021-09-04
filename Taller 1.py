@@ -99,3 +99,12 @@ NFotos = int(input('Digite el numero de fotos: '))
 TFotos = NFotos * 1500
 Total = TFotos + (TFotos * 0.16)
 print(f'El moto a pagar por las fotos es: {Total}')
+
+# Ejercicio 14
+presupuesto = float(input('Digite el presupuesto del hospital: '))
+Ginecologia = presupuesto * 0.4
+Traumatologia = presupuesto * 0.3
+Pediatria = presupuesto * 0.3
+print(f'El presupuesto para el area de ginecología es : {Ginecologia}')
+print(f'El presupuesto para el area de traumatología es : {Traumatologia}')
+print(f'El presupuesto para el area de pediatría es : {Pediatria}')
