@@ -86,3 +86,10 @@ descuento = PHoras * 0.05
 total = PHoras - descuento
 print(f'El descuento por caja de ahorro es: {descuento}')
 print(f'El monto a pagar al profesor es: {total}')
+
+# Ejercicio 12
+MInicial = float(input('Digite el monto inicial de la tarjeta: '))
+MFinal = float(input('Digite el monto final de la tarjeta: '))
+Ctotal = MFinal - MInicial
+Cllamada = 5 * Ctotal / 6
+print(f'El costo de la llamada es:{Cllamada}')
