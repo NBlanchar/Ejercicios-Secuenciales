@@ -30,3 +30,8 @@ volumen = float(input('Digite valor de la volúmen: '))
 temperatura = float(input('Digite valor de la temperatura: '))
 masa = (presion * volumen) / (0.37 * (temperatura + 460))
 print(f'La masa es: {masa}')
+
+# Ejercicio 5
+edad = int(input('Digite la edad: '))
+NPulsaciones = (200 - edad) / 10
+print(f'El numero de pulsaciones por cada 10 seg es: {NPulsaciones}')
