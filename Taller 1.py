@@ -53,3 +53,16 @@ ahorro = float(input('Digite monto ahorrado: '))
 interes = ahorro * 0.015
 total = ahorro + interes
 print(f'El saldo final del ahorrador es: {total}')
+
+# Ejercicio 8
+sueldo = float(input('Digite el sueldo: '))
+ley_politica = sueldo * 0.01
+SSocial = sueldo * 0.04
+SForzoso = sueldo * 0.005
+CAhorro = sueldo * 0.05
+total = sueldo - ley_politica - SSocial - SForzoso - CAhorro
+print(f'El descuento por ley de politica publica es: {ley_politica}')
+print(f'El descuento por seguro social es: {SSocial}')
+print(f'El descuento por seguro forzoso es: {SForzoso}')
+print(f'El descuento por caja de ahorro es: {CAhorro}')
+print(f'El Total a pagar al trabajador es: {total}')
