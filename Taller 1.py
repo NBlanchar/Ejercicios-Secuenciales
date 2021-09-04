@@ -78,3 +78,11 @@ print(f'El total a pagar por el aviso es: {total}')
 antiguedad = int(input('Digite la antiguedad del trabajador: '))
 total = ((antiguedad - 1) * 120000) + 100000
 print(f'El monto a pagar por el bono es: {total}')
+
+# Ejercicio 11
+horas = int(input('Digite el numero de horas trabajadas: '))
+PHoras = horas * 20000
+descuento = PHoras * 0.05
+total = PHoras - descuento
+print(f'El descuento por caja de ahorro es: {descuento}')
+print(f'El monto a pagar al profesor es: {total}')
