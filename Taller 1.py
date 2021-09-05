@@ -52,7 +52,7 @@ print(f'El porcentaje del inversionista 3 es: {Porcentaje_3}%')
 ahorro = float(input('Digite monto ahorrado: '))
 interes = ahorro * 0.015
 total = ahorro + interes
-print(f'El saldo final del ahorrador es: {total}')
+print(f'El saldo final del ahorrador es: {total:,}')
 
 # Ejercicio 8
 sueldo = float(input('Digite el sueldo: '))
@@ -61,77 +61,77 @@ SSocial = sueldo * 0.04
 SForzoso = sueldo * 0.005
 CAhorro = sueldo * 0.05
 total = sueldo - ley_politica - SSocial - SForzoso - CAhorro
-print(f'El descuento por ley de politica publica es: {ley_politica}')
-print(f'El descuento por seguro social es: {SSocial}')
-print(f'El descuento por seguro forzoso es: {SForzoso}')
-print(f'El descuento por caja de ahorro es: {CAhorro}')
-print(f'El Total a pagar al trabajador es: {total}')
+print(f'El descuento por ley de politica publica es: {ley_politica:,}')
+print(f'El descuento por seguro social es: {SSocial:,}')
+print(f'El descuento por seguro forzoso es: {SForzoso:,}')
+print(f'El descuento por caja de ahorro es: {CAhorro:,}')
+print(f'El Total a pagar al trabajador es: {total:,}')
 
 # Ejercicio 9
 NPalabras = int(input('Digite el numero de palabras: '))
 tamano = float(input('Digite el tamaño en centímetros: '))
 NColores = int(input('Digite el numero de colores: '))
 total = (NPalabras * 20000) + (tamano * 15000) + (NColores * 25000)
-print(f'El total a pagar por el aviso es: {total}')
+print(f'El total a pagar por el aviso es: {total:,}')
 
 # Ejercicio 10
 antiguedad = int(input('Digite la antiguedad del trabajador: '))
 total = ((antiguedad - 1) * 120000) + 100000
-print(f'El monto a pagar por el bono es: {total}')
+print(f'El monto a pagar por el bono es: {total:,}')
 
 # Ejercicio 11
 horas = int(input('Digite el numero de horas trabajadas: '))
 PHoras = horas * 20000
 descuento = PHoras * 0.05
 total = PHoras - descuento
-print(f'El descuento por caja de ahorro es: {descuento}')
-print(f'El monto a pagar al profesor es: {total}')
+print(f'El descuento por caja de ahorro es: {descuento:,}')
+print(f'El monto a pagar al profesor es: {total:,}')
 
 # Ejercicio 12
 MInicial = float(input('Digite el monto inicial de la tarjeta: '))
 MFinal = float(input('Digite el monto final de la tarjeta: '))
 Ctotal = MFinal - MInicial
 Cllamada = 5 * Ctotal / 6
-print(f'El costo de la llamada es:{Cllamada}')
+print(f'El costo de la llamada es:{Cllamada:,}')
 
 # Ejercicio 13
 NFotos = int(input('Digite el numero de fotos: '))
 TFotos = NFotos * 1500
 Total = TFotos + (TFotos * 0.16)
-print(f'El moto a pagar por las fotos es: {Total}')
+print(f'El moto a pagar por las fotos es: {Total:,}')
 
 # Ejercicio 14
 presupuesto = float(input('Digite el presupuesto del hospital: '))
 Ginecologia = presupuesto * 0.4
 Traumatologia = presupuesto * 0.3
 Pediatria = presupuesto * 0.3
-print(f'El presupuesto para el area de ginecología es : {Ginecologia}')
-print(f'El presupuesto para el area de traumatología es : {Traumatologia}')
-print(f'El presupuesto para el area de pediatría es : {Pediatria}')
+print(f'El presupuesto para el area de ginecología es : {Ginecologia:,}')
+print(f'El presupuesto para el area de traumatología es : {Traumatologia:,}')
+print(f'El presupuesto para el area de pediatría es : {Pediatria:,}')
 
 # Ejercicio 15
 NPeliculas = int(input("Digite el numero de peliculas: "))
 Ndias = int(input("Digite el numero de dias: "))
 Total = 15000 * (Ndias * (NPeliculas-1))
-print(f'El monto a pagar es: {Total}')
+print(f'El monto a pagar es: {Total:,}')
 
 # Ejercicio 16
 NDias = int(input("Digite el nuemro de dias: "))
 NPersonas = int(input("Digite el numero de personas: "))
 Costo = Ndias * NPersonas * 25000
 Total = Costo + (Costo * 0.12)
-print(f'El monto a pagar es: {Total}')
+print(f'El monto a pagar es: {Total:,}')
 
 # Ejercicio 17
 noches = int(input('Digite el numero de noches: '))
 total = ((noches - 1) * 200000) + 100000
-print(f'El monto a pagar por la estadia es: {total}')
+print(f'El monto a pagar por la estadia es: {total:,}')
 
 # Ejercicio 18
 prestamo = float(input('Digite el valor del prestamo: '))
 Total = prestamo + (prestamo * 0.24)
 CEspecial = Total / 2 / 4
 COrdinaria = Total / 2 / 20
-print(f'El valor a pagar es: {Total}')
-print(f'El valor de la cuota especial es: {CEspecial}')
-print(f'El valor de la cuota ordinaria es: {COrdinaria}')
+print(f'El valor a pagar es: {Total:,}')
+print(f'El valor de la cuota especial es: {CEspecial:,}')
+print(f'El valor de la cuota ordinaria es: {COrdinaria:,}')
